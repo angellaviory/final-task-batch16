@@ -19,15 +19,3 @@
 <img width="1325" alt="Screenshot 2023-05-29 at 16 50 13" src="https://github.com/angellaviory/final-task-batch16/assets/102456153/e23fdf0c-9bf9-43a9-b209-c79cb083f8f3">
 
 
-### backend
-- Pertama buatlah file YAML yang berisikan script untuk deployment backend.
-<img width="657" alt="Screenshot 2023-05-29 at 22 06 47" src="https://github.com/angellaviory/final-task-batch16/assets/102456153/4cd5f99c-ac62-420a-af3b-e0c7fcf26274">
-
-- Setelah itu, jalankan dengan command ``minikube kubectl -- apply -f backend.yml``. 
-<img width="653" alt="Screenshot 2023-05-29 at 22 07 58" src="https://github.com/angellaviory/final-task-batch16/assets/102456153/83f7cd3a-9432-4bff-8f79-74d819a5d5a1">
-
-- Kemudian buatlah file YAML yang berisikan script service frontend.
-
-- Setelah itu, jalankan dengan command ``minikube kubectl -- apply -f backend-svc.yml`` .
-
-- Selanjutnya untuk memastikan file tersebut sudah berhasil dibuat menggunakan command ``minikube kube -- get all``.
